@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow: hidden;
+    background-color: black;
+}
+h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#main{
+    width: 50%;
+    height: 20vh;
+    position: relative;
+    background-color: black;
+    margin-top: 20vh;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    z-index: 9;
+}
+
+#cover{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    background-color: black;
+    /* background-color: transparent; */
+}
+#main h1{
+    /* display: inline-block; */
+    font-size: min(6vw, 15vh);
+    line-height: 1;  
+    text-align: center;
+    flex: 1;
+    margin: 0;
+}
+
+svg{
+    /* background-color: aqua;  */
+    position:absolute;
+    top: 25%;
+    left: 50%;
+    z-index: 10;
+}

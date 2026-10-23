@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box1, #box2, #box3{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+}
+
+#nav{
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    background-color: rgba(220, 20,60, 0.9);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inner{
+    display: flex;
+    gap: 50px;
+    
+}
+
+h1{
+    /* background-color: blue; */
+    position: absolute; /*the first thee lines from it are common css technique to center a element*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    white-space: noWrap;
+}
